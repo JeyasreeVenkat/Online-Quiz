@@ -39,7 +39,7 @@ CREATE TABLE `admin` (
 --
 
 INSERT INTO `admin` (`admin_id`, `email`, `password`) VALUES
-(1, 'suryaprasadtripathy8@gmail.com', 'pinkylove');
+(1, 'admin@gmail.com', '123');
 
 -- --------------------------------------------------------
 
@@ -315,8 +315,8 @@ CREATE TABLE `user` (
 --
 
 INSERT INTO `user` (`name`, `college`, `email`, `password`) VALUES
-('Swagatika Padhi', 'National Institute of Science and Technology, Berhampur', 'pinky@gmail.com', 'pinky'),
-('Priyanka Pattnaik', 'National Institute of Science and Technology, Berhampur', 'priyanka@gmail.com', 'pinka');
+('pinky', 'ABC College','pinky@gmail.com', 'pinky'),
+('jeya', 'Velammal College,Madurai', 'jeyagmail.com', 'jeya');
 
 --
 -- Indexes for dumped tables
